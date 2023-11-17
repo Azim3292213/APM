@@ -1,0 +1,108 @@
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #263238; /* Darker background color */
+        color: #fff; /* White text color */
+    }
+
+    header {
+        background-color: #455a64; /* Darker gray background color */
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav {
+        background-color: #546e7a; /* Darker gray background color */
+        padding: 10px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #fff; /* White text color */
+        font-weight: bold;
+    }
+
+    .dashboard {
+        margin: 20px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    table {
+        width: 100%;
+        margin-top: 10px;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #dfe4e6; /* Darker gray background color */
+    }
+
+    button,
+    .dropdown-btn {
+        background-color: #cadcd9; /* Dark green color */
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 20px; /* Rounded corners */
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover,
+    .dropdown-btn:hover {
+        background-color: #5a716a; /* Darker green color on hover */
+    }
+
+    footer {
+        background-color: #76868e; /* Darker gray background color */
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    h2 {
+        color: #d7d8d8; /* Dark green color */
+    }
+
+    #addCourse,
+    #searchStudents,
+    #teacherJournal {
+        background-color: #f9f9f9;
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(129, 69, 69, 0.1);
+    }
+
+    #addCourse label,
+    #searchStudents label,
+    #teacherJournal label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #addCourse input,
+    #searchStudents input,
+    #teacherJournal input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+</style>
